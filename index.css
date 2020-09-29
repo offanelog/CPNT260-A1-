@@ -1,0 +1,38 @@
+/* heading */
+  
+.heading {
+    margin: auto;
+    
+    font-family: 'Cardo', serif;
+    font-size: 10vw;
+    text-shadow: .05em .05em white;
+    
+    text-align: center;
+  }
+  
+  /*Tagline */
+  
+  .tagline {
+    margin: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5vw;
+    text-shadow: .05em .05em white;
+  }
+  
+  /* Media Queries. Goal: Font size larger on phone screens*/
+  
+  @media (orientation: portrait) {
+    
+  /*  Heading  */
+    .heading {
+      font-size: 16vw;
+    }
+  /* Tagline  */
+    .tagline {
+      font-size: 8vw;
+    }
+  /* Click through link  */
+    .myButton {
+      font-size: 4vw;
+    }
+}
